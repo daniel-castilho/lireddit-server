@@ -9,7 +9,7 @@ export default {
         pattern: /^[\w-]+\d+\.[tj]s$/, // regex pattern for the migration files
     },
 	entities: [Post],
-	dbName: "postgres",
+	dbName: "lireddit",
 	type: "postgresql",
 	user: "postgres",
 	password: "Toronto@01",
